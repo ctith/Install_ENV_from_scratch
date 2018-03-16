@@ -33,6 +33,7 @@ ctith@L50T-036:/mnt/c/Users/Fitec/Desktop$ git clone https://github.com/ctith/Ka
 
 ## Installer Java JDK
 1. Executable pour windows x64 : http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html
+2. rajouter une variable JAVA_HOME dans les variables utilisateurs en précisant le chemin pointant vers le JDK C:\Program Files\Java\jdk1.8.0_161
 ![](https://github.com/ctith/Install_ENV_from_scratch/blob/master/Env_screenshot/env01.PNG?raw=true)
 
 ## Installer dépendance Maven
@@ -41,4 +42,3 @@ on utilise le maven extérieur à intelliJ pour pouvoir lancer plusieurs projets
 1. télécharger et dézipper la dépendance apache-maven - 3.5.3 où on veut https://maven.apache.org/download.cgi
 2. récupérer le chemin du dossier et le rajouter dans la variable système path C:\Program Files\JetBrains\apache-maven-3.5.3\bin
 ![](https://github.com/ctith/Install_ENV_from_scratch/blob/master/Env_screenshot/env02.PNG?raw=true)
-rajouter une variable JAVA_HOME dans les variables utilisateurs en précisant le chemin pointant vers le JDK C:\Program Files\Java\jdk1.8.0_161
