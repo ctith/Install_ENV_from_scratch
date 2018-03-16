@@ -44,3 +44,16 @@ on utilise le maven extérieur à intelliJ pour pouvoir lancer plusieurs projets
 2. récupérer le chemin du dossier et le rajouter dans la variable système path C:\Program Files\JetBrains\apache-maven-3.5.3\bin
 
 ![](https://github.com/ctith/Install_ENV_from_scratch/blob/master/Env_screenshot/env02.PNG?raw=true)
+
+### Installation de Kafka 
+#### Sous windows
+
+[https://kafka.apache.org/downloads](https://kafka.apache.org/downloads)
+télécharger la version correspondant à la version qu’on a de scala, puis décompresser en local
+
+#### Sous linux
+```
+ctith@L50T-048:/mnt/c/Users/Fitec$ wget http://apache.mindstudios.com/kafka/1.0.1/kafka_2.11-1.0.1.tgz
+
+ctith@L50T-048:/mnt/c/Users/Fitec$ tar -xf kafka_2.11-1.0.1.tgz
+```
