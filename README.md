@@ -37,7 +37,9 @@ ctith@L50T-036:/mnt/c/Users/Fitec/Desktop$ git clone https://github.com/ctith/Ka
 
 ![](https://github.com/ctith/Install_ENV_from_scratch/blob/master/Env_screenshot/env01.PNG?raw=true)
 
-## Installer IntelliJ entreprise
+## Utiliser IntelliJ entreprise
+Installer IntelliJ
+
 Installer IDE Python sur IntelliJ :
 settings > plugins > install jetbrains plugins > plugin python community
 
