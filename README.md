@@ -7,6 +7,15 @@
 -------------
 ![](https://github.com/ctith/Install_ENV_from_scratch/blob/master/Env_screenshot/03.PNG?raw=true)
 
+#### Windows 10 :
+- Si erreur 0x80070002, installer un [utilitaire de résolution de problème de Windows Update](https://support.microsoft.com/fr-fr/help/10164/fix-windows-update-errors) : https://aka.ms/wudiag
+- Installer linux selon les étapes montrées ci-dessus et redémarrer l'ordinateur
+- Si l'ordinateur ne détecte plus la carte wifi, ouvrir la console en mode administrateur : executer > cmd puis désactiver le parefeu avec la commande ci-dessous et redémarrer l'ordinateur
+```shell
+netsh advfirewall set allprofiles state off
+```
+- réactiver le parefeu dans le options windows ou avec la commande précédente en remplaçant off par on
+
 ## Installation de python
 
 ### Python 2.7 : https://www.python.org/downloads/
