@@ -83,3 +83,27 @@ https://sourceforge.net/projects/wampserver/
 Suivre le tuto : https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4237816-preparer-son-environnement-de-travail
 
 Vérifier que wamp a bien été installé : https://openclassrooms.com/fr/courses/3619856-developpez-votre-site-web-avec-le-framework-symfony/3620140-symfony-un-framework-php#/id/r-3620139
+
+![]()
+
+### Installer Symfony
+
+Suivre le tuto : https://openclassrooms.com/fr/courses/3619856-developpez-votre-site-web-avec-le-framework-symfony/3620140-symfony-un-framework-php
+
+Si erreur :  
+```shell
+ [GuzzleHttp\Ring\Exception\RingException]
+  cURL error 60: SSL certificate problem: unable to get local issuer certificate
+```
+
+Mettre le fichier https://curl.haxx.se/ca/cacert.pem dans **C:\wamp64\bin\php\cacert.pem**
+
+puis modifier le fichier php.ini de **C:\wamp64\bin\php\php7.2.4** (et non le php.ini de apache, celui que l'on trouve en faisant la commande php --ini) en remplaçant les lignes concernant curl.cainfo et openssl.cafile par :
+| n'oubliez pas d'enlever les ; en début de ligne
+```shell
+ curl.cainfo = "C:\wamp64\bin\php\cacert.pem"
+ openssl.cafile="C:\wamp64\bin\php\cacert.pem" 
+```
+
+
+
