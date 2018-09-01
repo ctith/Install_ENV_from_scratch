@@ -74,3 +74,12 @@ ctith@L50T-048:/mnt/c/Users/Fitec$ wget http://apache.mindstudios.com/kafka/1.0.
 
 ctith@L50T-048:/mnt/c/Users/Fitec$ tar -xf kafka_2.11-1.0.1.tgz
 ```
+## Installer environnement développement web
+
+### Installer Wampserver
+Télécharger l'exécutable wampserver et l'installer dans c:/wamp64
+https://sourceforge.net/projects/wampserver/
+
+Suivre le tuto : https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4237816-preparer-son-environnement-de-travail
+
+Vérifier que wamp a bien été installé : https://openclassrooms.com/fr/courses/3619856-developpez-votre-site-web-avec-le-framework-symfony/3620140-symfony-un-framework-php#/id/r-3620139
